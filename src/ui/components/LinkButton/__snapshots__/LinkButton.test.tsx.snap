@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LinkButton > should render the user's name 1`] = `
+<DocumentFragment>
+  <a
+    class="mocked-styled-0 ltiwt9s"
+    href="/user/jhondoe/repos"
+  >
+    Repositórios
+  </a>
+</DocumentFragment>
+`;

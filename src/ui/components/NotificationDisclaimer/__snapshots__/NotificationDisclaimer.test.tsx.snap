@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NotificationDisclaimer > should render the message 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-0 n1uu6e1r"
+    style="background-color: rgb(255, 214, 214); color: rgb(204, 0, 0);"
+  >
+    <p>
+      Error message
+    </p>
+  </div>
+</DocumentFragment>
+`;

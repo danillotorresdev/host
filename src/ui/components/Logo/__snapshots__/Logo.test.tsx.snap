@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo component > renders logo image with correct attributes 1`] = `
+<DocumentFragment>
+  <img
+    alt="Logo"
+    class="mocked-styled-0 le32cth"
+    src="https://www.codeitsolution.com/images/logo-mobile.png"
+    style="width: 200px; height: auto; display: block;"
+  />
+</DocumentFragment>
+`;

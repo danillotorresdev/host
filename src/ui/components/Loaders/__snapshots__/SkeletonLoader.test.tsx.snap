@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SkeletonLoader > should render the user's name 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-0 s5rd3pb"
+    style="--s5rd3pb-0: 100%; --s5rd3pb-1: 20px; --s5rd3pb-2: #f0f0f0; --s5rd3pb-3: 4px;"
+  />
+</DocumentFragment>
+`;

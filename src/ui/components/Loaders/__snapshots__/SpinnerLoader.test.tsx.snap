@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SpinnerLoader > should render the user's name 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-0 s1h0i5n1"
+    data-testid="spinner-loader"
+    style="--s1h0i5n1-0: 50px; --s1h0i5n1-1: #ccc;"
+  />
+</DocumentFragment>
+`;
