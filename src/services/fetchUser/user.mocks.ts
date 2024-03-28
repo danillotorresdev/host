@@ -1,4 +1,4 @@
-import { User } from "@/services/fetchUser/fetUser.service";
+import { User } from "@/services/fetchUser/fetchUser.service";
 
 export const userMock: User = {
   avatar_url: "https://",

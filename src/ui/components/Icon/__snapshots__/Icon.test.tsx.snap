@@ -2,14 +2,14 @@
 
 exports[`Icon component > renders icon with correct attributes 1`] = `
 <svg
-  class="svg svg-arrow-right"
+  class="svg svg-arrow-foward"
   data-testid="icon-svg"
   style="width: 24px; height: 24px; color: blue;"
   viewBox="0 0 1024 1024"
   xmlns="http://www.w3.org/2000/svg"
 >
   <use
-    xlink:href="/assets/sprite.svg#arrow-right"
+    xlink:href="/assets/sprite.svg#arrow-foward"
   />
 </svg>
 `;

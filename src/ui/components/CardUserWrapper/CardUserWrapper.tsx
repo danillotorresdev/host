@@ -1,4 +1,4 @@
-import { User } from "@/services/fetchUser/fetUser.service";
+import { User } from "@/services/fetchUser/fetchUser.service";
 import { SpinnerLoader } from "@/ui/components/Loaders/SpinnerLoader";
 import { NotificationDisclaimer } from "@/ui/components/NotificationDisclaimer/NotificationDisclaimer";
 import * as S from "./CardUserWrapper.styles";
