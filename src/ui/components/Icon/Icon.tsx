@@ -7,7 +7,8 @@ type SvgNameMapper =
   | "repo"
   | "star"
   | "followers"
-  | "email";
+  | "email"
+  | "sort";
 
 type IconProps = {
   name: SvgNameMapper;

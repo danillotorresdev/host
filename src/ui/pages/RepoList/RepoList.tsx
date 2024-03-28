@@ -8,7 +8,7 @@ import { SkeletonRepoListLoader } from "@/ui/pages/RepoList/SkeletonRepoListLoad
 export const RepoListPage = () => {
   const { username } = useParams<{ username: string }>();
 
-  const { repos, error, isLoading } = useRepoList(username);
+  const { repos, error, isLoading, handleSortRepos } = useRepoList(username);
 
   if (error) {
     return <NotificationDisclaimer message={error} type="error" />;
@@ -16,7 +16,15 @@ export const RepoListPage = () => {
 
   return (
     <S.PageContainer>
-      <S.Title>Repositorios de {username}</S.Title>
+      <S.PageHeader>
+        <S.Title>Repositorios de {username}</S.Title>
+        <div>
+          <S.SortButton onClick={handleSortRepos}>
+            <Icon name="sort" size="sm" />
+            Ordenar
+          </S.SortButton>
+        </div>
+      </S.PageHeader>
       {isLoading ? (
         <SkeletonRepoListLoader />
       ) : (

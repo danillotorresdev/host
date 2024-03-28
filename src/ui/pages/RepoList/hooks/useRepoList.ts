@@ -13,7 +13,11 @@ export const useRepoList = (userName: string | undefined) => {
       setIsLoading(true);
       try {
         const repos = await fetchRepos(userName);
-        setRepos(repos);
+
+        const sortedRepos = repos.sort(
+          (a, b) => b.stargazers_count - a.stargazers_count,
+        );
+        setRepos(sortedRepos);
       } catch {
         setError("Erro ao buscar repositórios. Tente novamente mais tarde.");
       } finally {
@@ -23,6 +27,11 @@ export const useRepoList = (userName: string | undefined) => {
 
     fetchReposData();
   }, [userName]);
+  
+  const handleSortRepos = () => {
+    const sortedRepos = [...repos].reverse();
+    setRepos(sortedRepos);
+  }
 
-  return { repos, error, isLoading };
+  return { repos, error, isLoading, handleSortRepos };
 };

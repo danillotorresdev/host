@@ -68,3 +68,25 @@ export const Description = styled.span`
     margin-bottom: 5px;
   }
 `;
+
+export const SortButton = styled.button`
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ccc;
+  color: #000;
+`;
+
+export const PageHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+`;
